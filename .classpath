@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/scene/shape/*"/>
+			<accessrule kind="accessible" pattern="javafx/animation/PathTransition/**"/>
+			<accessrule kind="accessible" pattern="javafx/scene/Node/*"/>
+			<accessrule kind="accessible" pattern="javafx/scene/Node/getTranslateX()"/>
+			<accessrule kind="accessible" pattern="javafx/scene/Node/getTranslateY()"/>
+			<accessrule kind="accessible" pattern="javafx/util/Duration"/>
+			<accessrule kind="accessible" pattern="javafx/animation/**"/>
+			<accessrule kind="accessible" pattern="javafx/scene/Node/**"/>
+			<accessrule kind="accessible" pattern="javafx/scene/Group"/>
+			<accessrule kind="accessible" pattern="javafx/scene/canvas/Canvas"/>
+			<accessrule kind="accessible" pattern="javafx/scene/input/KeyEvent"/>
+			<accessrule kind="accessible" pattern="javafx/scene/input/KeyCode"/>
+			<accessrule kind="accessible" pattern="javafx/geometry/**"/>
+			<accessrule kind="accessible" pattern="javafx/scene/media/Media"/>
+			<accessrule kind="accessible" pattern="javafx/scene/media/MediaPlayer"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/niallcollinson/Downloads/aquafx-0/aquafx-0.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/niallcollinson/Downloads/aquafx-0/aquafx-0.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/niallcollinson/Downloads/aquafx-0/aquafx-0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
